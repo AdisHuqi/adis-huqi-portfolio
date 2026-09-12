@@ -210,6 +210,15 @@ ul {
   margin-left: 68px;
 }
 
+.project-preview.amber .cover span {
+  margin-left: 68px;
+}
+
+.pos-logo {
+  object-fit: cover;
+  object-position: center 64%;
+}
+
 .project-preview.blue .cover-lines {
   top: 70px;
   height: 94px;
@@ -229,6 +238,24 @@ ul {
   height: 252px;
 }
 
+/* Quick Lek POS: storefront photo as the complete project-cover backdrop. */
+.project-preview.amber .cover {
+  height: 260px;
+  background:
+    linear-gradient(90deg, rgba(245, 241, 232, 0.94) 0%, rgba(245, 241, 232, 0.7) 44%, rgba(245, 241, 232, 0.1) 100%),
+    url("/images/pos-system/quick-lek-storefront.png") center 60% / cover no-repeat;
+}
+
+.project-preview.amber .cover-lines {
+  display: none;
+}
+
+.project-preview.amber .cover strong {
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: rgba(251, 248, 241, 0.8);
+}
+
 .project-preview.blue .cover-lines {
   top: 22px;
   right: 18px;
@@ -244,6 +271,10 @@ ul {
   .project-preview.blue .cover-lines {
     right: 14px;
     width: 49%;
+  }
+
+  .project-preview.amber .cover {
+    height: 220px;
   }
 }
 
