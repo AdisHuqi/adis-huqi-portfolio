@@ -328,7 +328,8 @@ ul {
   background: rgba(251, 248, 241, 0.8);
 }
 
-/* AnticoEvent: the supplied sign-in screen gives the project card its own visual identity. */
+/* AnticoEvent: keep the actual sign-in screen intact instead of stretching it
+   into a decorative background. */
 .antico-logo {
   width: 78px;
   height: 78px;
@@ -340,8 +341,12 @@ ul {
 .project-preview.violet .cover {
   height: 260px;
   background:
-    linear-gradient(90deg, rgba(255, 250, 246, 0.3) 0%, rgba(255, 250, 246, 0.1) 44%, transparent 100%),
-    url("/images/anticoevent/login.png") center 39% / cover no-repeat;
+    url("/images/anticoevent/login.png") right 18px center / auto calc(100% - 24px) no-repeat,
+    linear-gradient(135deg, #f8ece4, #fffaf6);
+}
+
+.project-preview.violet .cover::after {
+  display: none;
 }
 
 .project-preview.violet .cover span {
