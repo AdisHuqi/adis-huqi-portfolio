@@ -428,6 +428,15 @@ ul {
   background: url("/images/pos-system/product-list.png") center top / cover no-repeat;
 }
 
+/* Car Rental shares the amber accent with POS, but uses its own desktop UI. */
+.detail-hero.car-rental-management-system .art-panel:nth-of-type(1) {
+  background: url("/images/car-rental/dashboard.png") center / cover no-repeat;
+}
+
+.detail-hero.car-rental-management-system .art-panel:nth-of-type(2) {
+  background: url("/images/car-rental/cars.png") center / cover no-repeat;
+}
+
 /* Real Smart WBU previews inside the Grade Management case-study hero panels. */
 .detail-hero.cyan .art-panel:nth-of-type(1) {
   background: url("/images/grade-management/student-dashboard.png") center top / cover no-repeat;
