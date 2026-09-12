@@ -12,7 +12,10 @@ const screenshots:Record<string,{src:string;alt:string}>={
   "asis-taxi-admin-dashboard":{src:"/images/asis-taxi/admin-two-factor.png",alt:"ASIS Taxi Admin Dashboard two-factor verification screen for administrator access"},
   "pos-system-sales":{src:"/images/pos-system/dashboard.png",alt:"Quick POS dashboard showing daily revenue, completed sales, sold articles, product count, and quick actions"},
   "pos-system-products":{src:"/images/pos-system/product-list.png",alt:"Quick POS article list showing registered products, barcodes, units, prices, and product actions"},
-  "pos-system-reports":{src:"/images/pos-system/new-product.png",alt:"Quick POS new product registration form with barcode scanning, product name, price, and unit fields"}
+  "pos-system-reports":{src:"/images/pos-system/new-product.png",alt:"Quick POS new product registration form with barcode scanning, product name, price, and unit fields"},
+  "grade-management-dashboard":{src:"/images/grade-management/student-dashboard.png",alt:"Smart WBU Student Portal dashboard showing student information, current courses, and attendance"},
+  "grade-management-records":{src:"/images/grade-management/courses.png",alt:"Smart WBU Student Portal course overview with schedules, attendance, syllabus, and grades actions"},
+  "grade-management-details":{src:"/images/grade-management/teacher-grades.png",alt:"Smart WBU Teacher Portal grade management screen for Data Engineering students"}
 };
 const image=(project:string,file:string,label:string)=>screenshots[`${project}-${file}`]??{src:`/images/placeholders/${project}.svg`,alt:`${label} placeholder — replace with a real screenshot in public/images/placeholders/${project}-${file}.svg`};
 export const projects:Project[]=[

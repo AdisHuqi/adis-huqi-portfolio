@@ -256,6 +256,24 @@ ul {
     url("/images/pos-system/dashboard.png") center / cover no-repeat;
 }
 
+/* Grade Management: Smart WBU sign-in image as the complete project-cover backdrop. */
+.project-preview.cyan .cover {
+  height: 260px;
+  background:
+    linear-gradient(90deg, rgba(235, 242, 239, 0.94) 0%, rgba(235, 242, 239, 0.67) 44%, rgba(235, 242, 239, 0.1) 100%),
+    url("/images/grade-management/smart-wbu-login.png") center / cover no-repeat;
+}
+
+.project-preview.cyan .cover-lines {
+  display: none;
+}
+
+.project-preview.cyan .cover strong {
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: rgba(251, 248, 241, 0.8);
+}
+
 .project-preview.amber .cover-lines {
   display: none;
 }
@@ -284,6 +302,10 @@ ul {
   }
 
   .project-preview.amber .cover {
+    height: 220px;
+  }
+
+  .project-preview.cyan .cover {
     height: 220px;
   }
 }
