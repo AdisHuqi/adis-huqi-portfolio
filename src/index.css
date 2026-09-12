@@ -540,3 +540,74 @@ ul {
 .project-site {
   margin-left: 16px;
 }
+
+.skills-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12%;
+  align-items: end;
+  margin-bottom: 34px;
+}
+
+.skills-head h2 {
+  margin: 0;
+}
+
+.skills-head > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.skills .skills-grid article {
+  display: block;
+  min-height: 164px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 253, 248, 0.68);
+}
+
+.skills .skills-grid h3 {
+  margin: 0 0 18px;
+  color: var(--green-deep);
+}
+
+.skills .skills-grid ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills .skills-grid li {
+  padding: 4px 7px;
+  border: 1px solid #bfd0b9;
+  border-radius: 6px;
+  color: var(--green-deep);
+  background: #f6faf3;
+  font: 12px "DM Mono";
+}
+
+@media (max-width: 720px) {
+  .skills-head,
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-head {
+    gap: 18px;
+  }
+
+  .skills .skills-grid article {
+    min-height: 0;
+  }
+}
