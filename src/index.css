@@ -247,6 +247,30 @@ ul {
   }
 }
 
+/* ASIS Taxi: use the real booking screen as the complete project-cover backdrop. */
+.project-preview.blue .cover {
+  height: 260px;
+  background:
+    linear-gradient(90deg, rgba(245, 241, 232, 0.93) 0%, rgba(245, 241, 232, 0.72) 42%, rgba(245, 241, 232, 0.12) 100%),
+    url("/images/asis-taxi/customer-booking-map.png") center / cover no-repeat;
+}
+
+.project-preview.blue .cover-lines {
+  display: none;
+}
+
+.project-preview.blue .cover strong {
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: rgba(251, 248, 241, 0.8);
+}
+
+@media (max-width: 720px) {
+  .project-preview.blue .cover {
+    height: 220px;
+  }
+}
+
 /* Real ASIS Taxi product previews inside the two case-study hero panels. */
 .detail-hero.blue .art-panel:nth-of-type(1) {
   background: url("/images/asis-taxi/customer-booking-map.png") center / cover no-repeat;
