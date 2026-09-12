@@ -328,8 +328,7 @@ ul {
   background: rgba(251, 248, 241, 0.8);
 }
 
-/* AnticoEvent: keep the actual sign-in screen intact instead of stretching it
-   into a decorative background. */
+/* AnticoEvent: use a deliberate crop of the sign-in form as the cover art. */
 .antico-logo {
   width: 78px;
   height: 78px;
@@ -341,8 +340,8 @@ ul {
 .project-preview.violet .cover {
   height: 260px;
   background:
-    url("/images/anticoevent/login.png") right 18px center / auto calc(100% - 24px) no-repeat,
-    linear-gradient(135deg, #f8ece4, #fffaf6);
+    linear-gradient(90deg, rgba(255, 250, 246, 0.68) 0%, rgba(255, 250, 246, 0.2) 46%, rgba(255, 250, 246, 0.04) 100%),
+    url("/images/anticoevent/login.png") center 48% / cover no-repeat;
 }
 
 .project-preview.violet .cover::after {
