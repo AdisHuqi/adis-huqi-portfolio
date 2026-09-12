@@ -210,6 +210,20 @@ ul {
   margin-left: 68px;
 }
 
+.project-preview.blue .cover-lines {
+  top: 70px;
+  height: 94px;
+  overflow: hidden;
+  border: 1px solid rgba(65, 99, 75, 0.28);
+  border-radius: 6px;
+  background: url("/images/asis-taxi/customer-booking-map.png") center / cover no-repeat;
+  box-shadow: 0 2px 4px rgba(61, 52, 39, 0.07);
+}
+
+.project-preview.blue .cover-lines i {
+  display: none;
+}
+
 /* Real ASIS Taxi product previews inside the two case-study hero panels. */
 .detail-hero.blue .art-panel:nth-of-type(1) {
   background: url("/images/asis-taxi/customer-booking-map.png") center / cover no-repeat;
