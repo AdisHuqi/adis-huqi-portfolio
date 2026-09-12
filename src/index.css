@@ -210,6 +210,15 @@ ul {
   margin-left: 68px;
 }
 
+/* Real ASIS Taxi product previews inside the two case-study hero panels. */
+.detail-hero.blue .art-panel:nth-of-type(1) {
+  background: url("/images/asis-taxi/customer-booking-map.png") center / cover no-repeat;
+}
+
+.detail-hero.blue .art-panel:nth-of-type(2) {
+  background: url("/images/asis-taxi/customer-home.png") center 42% / cover no-repeat;
+}
+
 .hero-portrait img {
   width: 100%;
   height: 100%;
