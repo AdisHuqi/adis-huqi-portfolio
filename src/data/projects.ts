@@ -6,7 +6,10 @@ const screenshots:Record<string,{src:string;alt:string}>={
   "asis-taxi-customer-chat":{src:"/images/asis-taxi/customer-driver-directory.png",alt:"ASIS Taxi customer driver directory screen with search and driver availability"},
   "asis-taxi-driver-requests":{src:"/images/asis-taxi/driver-dashboard.png",alt:"ASIS Taxi Driver App dashboard showing online status, trip statistics, and a pickup navigation route"},
   "asis-taxi-driver-navigation":{src:"/images/asis-taxi/driver-current-trip.png",alt:"ASIS Taxi Driver App current trip screen showing route details, passenger actions, and arrival control"},
-  "asis-taxi-driver-earnings":{src:"/images/asis-taxi/driver-ride-history.png",alt:"ASIS Taxi Driver App ride history showing completed trips, cancellations, and fares"}
+  "asis-taxi-driver-earnings":{src:"/images/asis-taxi/driver-ride-history.png",alt:"ASIS Taxi Driver App ride history showing completed trips, cancellations, and fares"},
+  "asis-taxi-admin-rides":{src:"/images/asis-taxi/admin-operations-console.png",alt:"ASIS Taxi Admin Dashboard operations console with revenue, rides, drivers, accounts, and live map"},
+  "asis-taxi-admin-drivers":{src:"/images/asis-taxi/admin-settings.png",alt:"ASIS Taxi Admin Dashboard administrator settings screen with account and email configuration"},
+  "asis-taxi-admin-dashboard":{src:"/images/asis-taxi/admin-two-factor.png",alt:"ASIS Taxi Admin Dashboard two-factor verification screen for administrator access"}
 };
 const image=(project:string,file:string,label:string)=>screenshots[`${project}-${file}`]??{src:`/images/placeholders/${project}.svg`,alt:`${label} placeholder — replace with a real screenshot in public/images/placeholders/${project}-${file}.svg`};
 export const projects:Project[]=[
