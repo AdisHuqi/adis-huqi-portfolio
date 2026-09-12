@@ -284,6 +284,19 @@ ul {
   background: rgba(251, 248, 241, 0.8);
 }
 
+/* Car Rental Management System: use its desktop sign-in screen in the cover. */
+.project-preview.car-rental-management-system .cover {
+  background:
+    linear-gradient(90deg, rgba(245, 241, 232, 0.92) 0%, rgba(245, 241, 232, 0.64) 44%, rgba(245, 241, 232, 0.1) 100%),
+    url("/images/car-rental/sign-in.png") center / cover no-repeat;
+}
+
+.car-rental-logo {
+  padding: 0;
+  object-fit: cover;
+  background: #5b5e66;
+}
+
 .project-preview.blue .cover-lines {
   top: 22px;
   right: 18px;
