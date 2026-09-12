@@ -328,8 +328,42 @@ ul {
   background: rgba(251, 248, 241, 0.8);
 }
 
+/* AnticoEvent: the supplied sign-in screen gives the project card its own visual identity. */
+.antico-logo {
+  width: 78px;
+  height: 78px;
+  padding: 4px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.92);
+}
+
+.project-preview.violet .cover {
+  height: 260px;
+  background:
+    linear-gradient(90deg, rgba(255, 248, 243, 0.94) 0%, rgba(255, 248, 243, 0.67) 44%, rgba(255, 248, 243, 0.08) 100%),
+    url("/images/anticoevent/login.png") center 39% / cover no-repeat;
+}
+
+.project-preview.violet .cover span {
+  margin-left: 88px;
+}
+
+.project-preview.violet .cover-lines {
+  display: none;
+}
+
+.project-preview.violet .cover strong {
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: rgba(255, 250, 246, 0.84);
+}
+
 @media (max-width: 720px) {
   .project-preview.blue .cover {
+    height: 220px;
+  }
+
+  .project-preview.violet .cover {
     height: 220px;
   }
 }
