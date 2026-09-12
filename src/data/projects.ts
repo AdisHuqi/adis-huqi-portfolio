@@ -9,7 +9,10 @@ const screenshots:Record<string,{src:string;alt:string}>={
   "asis-taxi-driver-earnings":{src:"/images/asis-taxi/driver-ride-history.png",alt:"ASIS Taxi Driver App ride history showing completed trips, cancellations, and fares"},
   "asis-taxi-admin-rides":{src:"/images/asis-taxi/admin-operations-console.png",alt:"ASIS Taxi Admin Dashboard operations console with revenue, rides, drivers, accounts, and live map"},
   "asis-taxi-admin-drivers":{src:"/images/asis-taxi/admin-settings.png",alt:"ASIS Taxi Admin Dashboard administrator settings screen with account and email configuration"},
-  "asis-taxi-admin-dashboard":{src:"/images/asis-taxi/admin-two-factor.png",alt:"ASIS Taxi Admin Dashboard two-factor verification screen for administrator access"}
+  "asis-taxi-admin-dashboard":{src:"/images/asis-taxi/admin-two-factor.png",alt:"ASIS Taxi Admin Dashboard two-factor verification screen for administrator access"},
+  "pos-system-sales":{src:"/images/pos-system/dashboard.png",alt:"Quick POS dashboard showing daily revenue, completed sales, sold articles, product count, and quick actions"},
+  "pos-system-products":{src:"/images/pos-system/product-list.png",alt:"Quick POS article list showing registered products, barcodes, units, prices, and product actions"},
+  "pos-system-reports":{src:"/images/pos-system/new-product.png",alt:"Quick POS new product registration form with barcode scanning, product name, price, and unit fields"}
 };
 const image=(project:string,file:string,label:string)=>screenshots[`${project}-${file}`]??{src:`/images/placeholders/${project}.svg`,alt:`${label} placeholder — replace with a real screenshot in public/images/placeholders/${project}-${file}.svg`};
 export const projects:Project[]=[
