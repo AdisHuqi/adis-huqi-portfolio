@@ -541,12 +541,21 @@ ul {
   margin-left: 16px;
 }
 
+/* Keep the narrative-to-toolkit transition dense enough for a short section. */
+.split {
+  padding-bottom: 64px;
+}
+
+.skills {
+  padding-top: 64px;
+}
+
 .skills-head {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12%;
   align-items: end;
-  margin-bottom: 34px;
+  margin-bottom: 24px;
 }
 
 .skills-head h2 {
