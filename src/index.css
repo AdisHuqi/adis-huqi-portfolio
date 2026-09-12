@@ -174,3 +174,38 @@ ul {
   color: #b96f4e;
   font: 500 11px "DM Mono", monospace;
 }
+
+.hero-portrait {
+  position: absolute;
+  right: 10%;
+  top: 104px;
+  width: 248px;
+  height: 248px;
+  overflow: hidden;
+  border: 10px solid #fbf8f1;
+  border-radius: 50%;
+  background: #dce8d7;
+  box-shadow: 0 6px 8px rgba(61, 52, 39, 0.1), 18px 22px 0 -17px #b96f4e;
+  z-index: 1;
+}
+
+.hero:after {
+  display: none;
+}
+
+.hero-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+@media (max-width: 720px) {
+  .hero-portrait {
+    right: 20px;
+    top: 50px;
+    width: 112px;
+    height: 112px;
+    border-width: 6px;
+  }
+}
