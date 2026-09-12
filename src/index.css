@@ -543,11 +543,11 @@ ul {
 
 /* Keep the narrative-to-toolkit transition dense enough for a short section. */
 .split {
-  padding-bottom: 64px;
+  padding-bottom: 24px;
 }
 
 .skills {
-  padding-top: 64px;
+  padding-top: 32px;
 }
 
 .skills-head {
