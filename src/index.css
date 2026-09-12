@@ -362,6 +362,23 @@ ul {
   background: rgba(255, 250, 246, 0.84);
 }
 
+/* FitShop: the product landing page is the project-cover background. */
+.project-preview.fitshop .cover {
+  background:
+    linear-gradient(90deg, rgba(245, 241, 232, 0.92) 0%, rgba(245, 241, 232, 0.58) 46%, rgba(245, 241, 232, 0.08) 100%),
+    url("/images/fitshop/home.png") center / cover no-repeat;
+}
+
+.project-preview.fitshop .cover strong {
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: rgba(251, 248, 241, 0.86);
+}
+
+.project-preview.fitshop .cover-lines {
+  display: none;
+}
+
 @media (max-width: 720px) {
   .project-preview.blue .cover {
     height: 220px;
@@ -406,6 +423,15 @@ ul {
 
 .detail-hero.violet .art-panel:nth-of-type(2) {
   background: url("/images/anticoevent/admin-dashboard.png") center top / cover no-repeat;
+}
+
+/* FitShop's home screen and AI coach provide the case-study hero preview. */
+.detail-hero.fitshop .art-panel:nth-of-type(1) {
+  background: url("/images/fitshop/home.png") center / cover no-repeat;
+}
+
+.detail-hero.fitshop .art-panel:nth-of-type(2) {
+  background: url("/images/fitshop/ai-coach.png") center top / cover no-repeat;
 }
 
 /* AnticoEvent uses tall application screens. Keep them upright and uncropped so
