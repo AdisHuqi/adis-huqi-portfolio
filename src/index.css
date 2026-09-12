@@ -395,6 +395,15 @@ ul {
   background: url("/images/grade-management/teacher-grades.png") center top / cover no-repeat;
 }
 
+/* Real AnticoEvent previews inside the event ticketing case-study header. */
+.detail-hero.violet .art-panel:nth-of-type(1) {
+  background: url("/images/anticoevent/login.png") center 38% / cover no-repeat;
+}
+
+.detail-hero.violet .art-panel:nth-of-type(2) {
+  background: url("/images/anticoevent/admin-dashboard.png") center top / cover no-repeat;
+}
+
 /* Keep the long Grade Management title clear of its visual preview. */
 .detail-hero.cyan h1 {
   max-width: 560px;
