@@ -224,6 +224,29 @@ ul {
   display: none;
 }
 
+/* Let the ASIS product image own the right side of its project cover. */
+.project-preview.blue .cover {
+  height: 252px;
+}
+
+.project-preview.blue .cover-lines {
+  top: 22px;
+  right: 18px;
+  width: 53%;
+  height: calc(100% - 44px);
+}
+
+@media (max-width: 720px) {
+  .project-preview.blue .cover {
+    height: 220px;
+  }
+
+  .project-preview.blue .cover-lines {
+    right: 14px;
+    width: 49%;
+  }
+}
+
 /* Real ASIS Taxi product previews inside the two case-study hero panels. */
 .detail-hero.blue .art-panel:nth-of-type(1) {
   background: url("/images/asis-taxi/customer-booking-map.png") center / cover no-repeat;
