@@ -214,6 +214,16 @@ ul {
   margin-left: 68px;
 }
 
+.project-preview.cyan .cover span {
+  margin-left: 68px;
+}
+
+.grade-logo {
+  object-fit: contain;
+  padding: 0;
+  background: #1f4e89;
+}
+
 .pos-logo {
   object-fit: cover;
   object-position: center 64%;
