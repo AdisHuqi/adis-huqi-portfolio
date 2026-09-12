@@ -243,7 +243,7 @@ ul {
   height: 260px;
   background:
     linear-gradient(90deg, rgba(245, 241, 232, 0.94) 0%, rgba(245, 241, 232, 0.7) 44%, rgba(245, 241, 232, 0.1) 100%),
-    url("/images/pos-system/quick-lek-storefront.png") center 60% / cover no-repeat;
+    url("/images/pos-system/dashboard.png") center / cover no-repeat;
 }
 
 .project-preview.amber .cover-lines {
