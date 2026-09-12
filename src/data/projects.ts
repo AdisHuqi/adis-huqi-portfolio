@@ -3,7 +3,10 @@ export type Project={slug:string;title:string;category:string;summary:string;pro
 const screenshots:Record<string,{src:string;alt:string}>={
   "asis-taxi-customer-booking":{src:"/images/asis-taxi/customer-booking-map.png",alt:"ASIS Taxi customer booking screen with pickup and destination fields over a Durres map"},
   "asis-taxi-customer-tracking":{src:"/images/asis-taxi/customer-home.png",alt:"ASIS Taxi customer home screen with taxi service introduction and booking action"},
-  "asis-taxi-customer-chat":{src:"/images/asis-taxi/customer-driver-directory.png",alt:"ASIS Taxi customer driver directory screen with search and driver availability"}
+  "asis-taxi-customer-chat":{src:"/images/asis-taxi/customer-driver-directory.png",alt:"ASIS Taxi customer driver directory screen with search and driver availability"},
+  "asis-taxi-driver-requests":{src:"/images/asis-taxi/driver-dashboard.png",alt:"ASIS Taxi Driver App dashboard showing online status, trip statistics, and a pickup navigation route"},
+  "asis-taxi-driver-navigation":{src:"/images/asis-taxi/driver-current-trip.png",alt:"ASIS Taxi Driver App current trip screen showing route details, passenger actions, and arrival control"},
+  "asis-taxi-driver-earnings":{src:"/images/asis-taxi/driver-ride-history.png",alt:"ASIS Taxi Driver App ride history showing completed trips, cancellations, and fares"}
 };
 const image=(project:string,file:string,label:string)=>screenshots[`${project}-${file}`]??{src:`/images/placeholders/${project}.svg`,alt:`${label} placeholder — replace with a real screenshot in public/images/placeholders/${project}-${file}.svg`};
 export const projects:Project[]=[
