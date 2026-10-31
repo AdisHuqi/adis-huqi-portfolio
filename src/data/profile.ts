@@ -43,19 +43,19 @@ export const profile = {
     },
     {
       group: "Frontend",
-      items: ["React", "Flutter", "JavaFX", "Responsive & mobile UI"],
+      items: ["React", "TanStack Router & Query", "Tailwind CSS", "Capacitor", "Flutter", "JavaFX", "Responsive & mobile UI"],
     },
     {
       group: "Backend",
-      items: ["Node.js", "Express", "REST API design", "JWT auth"],
+      items: ["Node.js", "Express", "Supabase Edge Functions", "REST APIs & RPCs", "JWT auth"],
     },
     {
       group: "Data & infrastructure",
-      items: ["MySQL", "MongoDB", "Supabase"],
+      items: ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "Row Level Security", "Vercel"],
     },
     {
       group: "Other",
-      items: ["Google Maps platform", "Hardware/POS integration", "Git"],
+      items: ["Google Maps Platform", "Firebase Cloud Messaging", "Playwright", "Vitest", "Hardware/POS integration", "Git"],
     },
   ],
 
