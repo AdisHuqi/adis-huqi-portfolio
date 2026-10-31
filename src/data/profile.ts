@@ -15,7 +15,7 @@ export const profile = {
 
   intro: [
     "I'm a Software Engineering graduate of Western Balkans University in Albania (2026), where I finished with a 9.63/10 GPA, President's List honors in my first two years, and the Rector's Honor List at graduation.",
-    "I'm currently pursuing a master's degree in Software Engineering at CIT.",
+    "I'm currently pursuing a master's degree in Software Engineering at the Canadian Institute of Technology (CIT).",
     "Most of what I build starts from an actual operational problem — a driver who needs to see fares in Lek, a cashier who needs a barcode scanner to just work, an organizer who needs to manage event tickets. I like the unglamorous parts: schemas, auth, and the interface someone will actually use under pressure.",
   ],
 
@@ -31,7 +31,7 @@ export const profile = {
     {
       period: "In progress",
       title: "Master's in Software Engineering",
-      place: "CIT",
+      place: "Canadian Institute of Technology (CIT)",
       detail: "Currently pursuing a master's degree in Software Engineering.",
     },
     {
