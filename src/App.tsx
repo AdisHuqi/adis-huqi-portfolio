@@ -174,9 +174,6 @@ function Home() {
           <div className="hero-copy">
             <div className="hero-person">
               <img src="/adis-huqi.jpg" alt="Adis Huqi in graduation attire" width="400" height="400" />
-              <p>
-                I’m {profile.name}. {profile.tagline}
-              </p>
             </div>
             <div className="actions">
               <Link to="/projects" className="button">
@@ -259,24 +256,13 @@ function Home() {
 }
 
 function RideFigure() {
-  const [run, setRun] = useState(0);
   return (
-    <figure className="demo">
-      {/* Decorative for assistive tech: the caption says what it shows. */}
+    <figure className="demo" role="img" aria-label="ASIS TAXI illustration: a driver accepts a request and the customer receives a notification.">
       <div className="demo-stage" aria-hidden="true">
         <Suspense fallback={null}>
-          <RideDemo key={run} />
+          <RideDemo />
         </Suspense>
       </div>
-      <figcaption>
-        <span>
-          Illustration of ASIS TAXI, not a recording: a driver accepts a request in the browser and the customer’s
-          phone is notified through the shared backend.
-        </span>
-        <button type="button" className="replay" onClick={() => setRun((n) => n + 1)}>
-          Replay
-        </button>
-      </figcaption>
     </figure>
   );
 }
