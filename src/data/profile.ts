@@ -15,6 +15,7 @@ export const profile = {
 
   intro: [
     "I'm a Software Engineering graduate of Western Balkans University in Albania (2026), where I finished with a 9.63/10 GPA, President's List honors in my first two years, and the Rector's Honor List at graduation.",
+    "I'm currently pursuing a master's degree in Software Engineering at the Canadian Institute of Technology (CIT).",
     "Most of what I build starts from an actual operational problem — a driver who needs to see fares in Lek, a cashier who needs a barcode scanner to just work, an organizer who needs to manage event tickets. I like the unglamorous parts: schemas, auth, and the interface someone will actually use under pressure.",
   ],
 
@@ -27,6 +28,12 @@ export const profile = {
   ],
 
   education: [
+    {
+      period: "In progress",
+      title: "Master's in Software Engineering",
+      place: "Canadian Institute of Technology (CIT)",
+      detail: "Currently pursuing a master's degree in Software Engineering.",
+    },
     {
       period: "Graduated 2026",
       title: "B.Sc. Software Engineering",
@@ -43,19 +50,19 @@ export const profile = {
     },
     {
       group: "Frontend",
-      items: ["React", "Flutter", "JavaFX", "Responsive & mobile UI"],
+      items: ["React", "TanStack Router & Query", "Tailwind CSS", "Capacitor", "Flutter", "JavaFX", "Responsive & mobile UI"],
     },
     {
       group: "Backend",
-      items: ["Node.js", "Express", "REST API design", "JWT auth"],
+      items: ["Node.js", "Express", "Supabase Edge Functions", "REST APIs & RPCs", "JWT auth"],
     },
     {
       group: "Data & infrastructure",
-      items: ["MySQL", "MongoDB", "Supabase"],
+      items: ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "Row Level Security", "Vercel"],
     },
     {
       group: "Other",
-      items: ["Google Maps platform", "Hardware/POS integration", "Git"],
+      items: ["Google Maps Platform", "Firebase Cloud Messaging", "Playwright", "Vitest", "Hardware/POS integration", "Git"],
     },
   ],
 
