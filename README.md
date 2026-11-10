@@ -1,8 +1,9 @@
 # Adis Huqi — Portfolio
 
 Static, single-page portfolio built with **React 19, TypeScript 6, Vite 8, and npm**.
-The existing paper/ink palette, Space Grotesk / Inter / IBM Plex Mono typography,
-SVG interface concepts, alternating project cards, and hero animation are preserved.
+Paper/ink palette with one vermilion accent, Bricolage Grotesque / IBM Plex Mono typography,
+numbered project rows, and an animated ASIS TAXI illustration in the hero
+(`src/RideDemo.tsx`, built on the vendored Stageshow kit in `src/kit`).
 No backend, database, authentication, or contact service is required.
 
 ## Setup and local development
@@ -117,8 +118,8 @@ union, preserving the existing framing and aspect ratio. Label it accurately;
 do not label a real screenshot as a concept. There is no implemented `screenshot`
 data field; merely adding such a field will not display an image.
 
-Keep layout and section styles in `src/App.css`, and colors, fonts, reset,
-keyboard focus, and reduced-motion rules in `src/index.css`.
+All page styles, colors, fonts, reset, keyboard focus, and reduced-motion rules live
+in `src/index.css`; the hero illustration's styles are in `src/rideDemo.css`.
 
 ## Contact, CV, and secrets
 
