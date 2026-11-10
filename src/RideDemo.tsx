@@ -36,7 +36,7 @@ export default function RideDemo() {
     <Stage
       width={640}
       height={400}
-      compact={{ below: 600, width: 358, height: 560 }}
+      compact={{ below: 480, width: 358, height: 560 }}
       initial={initial}
       poster={poster}
       script={script}
