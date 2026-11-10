@@ -332,10 +332,9 @@ h3 {
 }
 
 .hero h1 {
-  max-width: 14em;
-  margin-top: 14px;
-  font-size: clamp(2.3rem, 5.4vw, 4.25rem);
-  line-height: 0.95;
+  margin-top: 20px;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.1;
   letter-spacing: -0.03em;
 }
 
@@ -348,8 +347,10 @@ h3 {
 }
 
 .hero-person img {
-  width: 80px;
-  height: 80px;
+  width: 240px;
+  height: 240px;
+  max-width: 100%;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -1143,8 +1144,8 @@ h3 {
 
 @media (max-width: 560px) {
   .hero-person img {
-    width: 64px;
-    height: 64px;
+    width: 180px;
+    height: 180px;
   }
 
   .gallery-desktop {

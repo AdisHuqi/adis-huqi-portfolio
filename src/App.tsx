@@ -167,14 +167,12 @@ function Home() {
         <p className="kicker">
           {profile.role} · {profile.location}
         </p>
-        <h1>
-          Software for drivers, cashiers <span className="nowrap">and organizers.</span>
-        </h1>
         <div className="hero-body">
           <div className="hero-copy">
             <div className="hero-person">
               <img src="/adis-huqi.jpg" alt="Adis Huqi in graduation attire" width="400" height="400" />
             </div>
+            <h1>{profile.name}</h1>
             <div className="actions">
               <Link to="/projects" className="button">
                 See the work
