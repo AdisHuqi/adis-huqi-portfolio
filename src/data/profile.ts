@@ -14,14 +14,15 @@ export const profile = {
     "I build web applications, mobile apps, and practical business software — from ride booking and store sales to event ticketing and rental management.",
 
   intro: [
-    "I'm a Software Engineering graduate of Western Balkans University in Albania (2026), where I finished with a 9.63/10 GPA, President's List honors in my first two years, and the Rector's Honor List at graduation.",
+    "I'm a Software Engineering graduate of Western Balkans University in Albania (2026), where I finished with a GPA of 9.61/10 (Albanian scale) and 3.81/4.00 on the 4.0 scale. I earned President's List honors in my first two years and the Rector's Honor List at graduation.",
     "I'm currently pursuing a master's degree in Software Engineering at the Canadian Institute of Technology (CIT).",
     "Most of what I build starts from an actual operational problem — a driver who needs to see fares in Lek, a cashier who needs a barcode scanner to just work, an organizer who needs to manage event tickets. I like the unglamorous parts: schemas, auth, and the interface someone will actually use under pressure.",
   ],
 
   // Real, verifiable facts only — no invented metrics.
   credentials: [
-    { label: "GPA", value: "9.63 / 10" },
+    { label: "GPA · Albanian scale", value: "9.61 / 10" },
+    { label: "GPA · 4.0 scale", value: "3.81 / 4.00" },
     { label: "Thesis score", value: "98 / 100" },
     { label: "1st & 2nd year", value: "President's List" },
     { label: "Graduation", value: "Rector's Honor List" },
@@ -39,7 +40,7 @@ export const profile = {
       title: "B.Sc. Software Engineering",
       place: "Western Balkans University, Albania",
       detail:
-        "Graduated with a 9.63/10 GPA. Bachelor thesis: “Design and Implementation of a Cross-Platform Event Ticketing System with Mobile Application and Web Administration Panel,” presented with a score of 98/100.",
+        "Graduated with a GPA of 9.61/10 (Albanian scale) and 3.81/4.00 on the 4.0 scale. Bachelor thesis: “Design and Implementation of a Cross-Platform Event Ticketing System with Mobile Application and Web Administration Panel,” presented with a score of 98/100.",
     },
   ],
 
